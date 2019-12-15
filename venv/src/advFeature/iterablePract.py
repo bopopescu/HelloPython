@@ -22,3 +22,6 @@ elif findMinAndMax([7, 1, 3, 9, 5]) != (1, 9):
     print('测试失败!4')
 else:
     print('测试成功!')
+
+for i,value in enumerate(['a','b','c']):
+    print(i,value)
