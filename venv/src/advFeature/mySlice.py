@@ -1,0 +1,5 @@
+L=list(range(100))
+print(L[:10])
+print(L[-10:])
+print(L[-15:-10:2])
+print('ABCDEFGHIJK'[:8:2])
