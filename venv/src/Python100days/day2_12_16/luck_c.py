@@ -1,0 +1,16 @@
+def luckC():
+    persons=[True]*30
+    index,number,counter=0,0,0
+    while counter<15:
+        if persons[index]:
+            number+=1
+            if number==9:
+                persons[index]=False
+                counter+=1
+                number=0
+        index+=1
+        index%=30
+    print(persons)
+    print()
+
+luckC()
