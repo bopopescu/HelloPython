@@ -121,7 +121,7 @@ class Monster(Fighter):
 def is_any_alive(monsters):
     """判断有没有小怪兽是活着的"""
     for monster in monsters:
-        if monster.alive > 0:
+        if monster.alive :
             return True
     return False
 
@@ -132,7 +132,7 @@ def select_alive_one(monsters):
     while True:
         index = randrange(monsters_len)
         monster = monsters[index]
-        if monster.alive > 0:
+        if monster.alive :
             return monster
 
 
