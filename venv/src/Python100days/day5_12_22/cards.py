@@ -68,8 +68,8 @@ class Player(object):
     def getCard(self,card):
         self._cardsOnHand.append(card)
 
-    def arrange(self,cardKey):
-        self._cardsOnHand.sort(key=cardKey)
+    def arrange(self,getCardKey):
+        self._cardsOnHand.sort(key=getCardKey)
 
 def getCardKey(card):
     return (card.suite,card.face)
