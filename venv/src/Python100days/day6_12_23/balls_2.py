@@ -21,4 +21,5 @@ class Color(Enum):
         return (r, g, b)
 
 class Ball(object):
-    def __init__(self,):
+    def __init__(self):
+        pass
